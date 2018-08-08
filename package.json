@@ -17,6 +17,7 @@
     "js modal",
     "dialogue"
   ],
+  "browserify": { "transform": [ "babelify" ] },
   "author": "Nathan Green <hello@nathgreen.co.uk>",
   "homepage": "https://github.com/nath-green/modal#readme",
   "license": "MIT",
