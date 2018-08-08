@@ -19,5 +19,9 @@
   ],
   "author": "Nathan Green <hello@nathgreen.co.uk>",
   "homepage": "https://github.com/nath-green/modal#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "state-toggler": "^1.0.2"
+  }
 }

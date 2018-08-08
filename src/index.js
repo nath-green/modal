@@ -1,7 +1,7 @@
 import $ from 'jquery'
-import { toggleState } from '../utils/toggleState'
+import { stateToggler } from 'state-toggler'
 
-export const Modal = (function () {
+const Modal = (function () {
   // Bind click on modal-action on import
   $('[modal-action]').click(function () {
     let action = $(this).attr('modal-action')
@@ -23,7 +23,7 @@ export const Modal = (function () {
   }
 
   const toggle = target => {
-    toggleState(`[modal="${target}"]`, 'modal-state', 'open', 'closed')
+    stateToggler(`[modal="${target}"]`, {attr: 'modal-state'})
   }
 
   // Public API for modal actions not click bound
@@ -34,3 +34,5 @@ export const Modal = (function () {
     toggle: toggle
   }
 })()
+
+module.exports = { Modal }
