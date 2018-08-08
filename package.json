@@ -1,6 +1,6 @@
 {
   "name": "modal-lite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lite JS modal library",
   "main": "src/index.js",
   "scripts": {
