@@ -1,4 +1,6 @@
-## Modali
+## modal-lite
+
+```npm install modal-lite```
 
 Import the modal library with `import { Modal } from 'modal-lite'`. Once imported `Modal` click handlers will be initialised on all elements that have a `[modal-action]` data attribute.
 
