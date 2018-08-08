@@ -1,7 +1,7 @@
 import $ from 'jquery'
 import { stateToggler } from 'state-toggler'
 
-const Modal = (function () {
+export const Modal = (function () {
   // Bind click on modal-action on import
   $('[modal-action]').click(function () {
     let action = $(this).attr('modal-action')
@@ -34,5 +34,3 @@ const Modal = (function () {
     toggle: toggle
   }
 })()
-
-module.exports = { Modal }
