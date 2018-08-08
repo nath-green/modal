@@ -1,0 +1,23 @@
+{
+  "name": "@nath-green/modal",
+  "version": "1.0.1",
+  "description": "Tiny modal library",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nath-green/modal.git"
+  },
+  "keywords": [
+    "modal",
+    "modals",
+    "modali",
+    "js modal",
+    "dialogue"
+  ],
+  "author": "Nathan Green <hello@nathgreen.co.uk>",
+  "homepage": "https://github.com/nath-green/modal#readme",
+  "license": "MIT"
+}

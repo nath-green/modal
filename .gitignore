@@ -1,0 +1,5 @@
+/node_modules
+/dist/js/*
+/dist/css/*
+*.log
+todo.txt
